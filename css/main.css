@@ -52,6 +52,7 @@ body {
     float: right;
   }
   
+  /* Content less than full page */
   .footer {
     position: absolute;
     bottom: 0;
@@ -64,6 +65,19 @@ body {
     line-height: 20px;
     padding: 10px 0 5px;
   }
+
+  /* Content longer than full page */
+  /* .footer {
+    height: auto;
+    width: 100vw;
+    margin: 50px 0 0;
+    text-align: center;
+    background-color: gainsboro;
+    color: #444;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px 0 5px;
+  } */
   
   .x-button {
     float: right;
